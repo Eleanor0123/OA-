@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="s1" verbose="1" >
+	<listeners> 
+		<listener class-name="com.api.core.ApiListener" /> 
+		<listener class-name="org.uncommons.reportng.HTMLReporter"></listener>
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter"></listener>
+      
+	</listeners>
+
+	<test name="test1">
+			<classes>
+			<class name="com.api.test.PostJsonDemo" />
+			<class name="com.edu.mail.SendMail" />
+		</classes>
+	</test>
+
+
+</suite>

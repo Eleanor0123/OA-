@@ -1,0 +1,53 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="s1" verbose="1" >
+	<listeners> 
+		<listener class-name="com.webtest.core.WebTestListener" /> 
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+	</listeners>
+
+	<test name="knowledge">
+			<classes>
+			<class name="com.webtest.demo.Front_Login_Test" />
+			<class name="com.webtest.demo.Test1" />
+			<class name="com.webtest.demo.Test2" />
+			<class name="com.webtest.demo.Test3" />
+			<class name="com.webtest.demo.Test4" />
+			<class name="com.webtest.demo.Test5" />
+			<class name="com.webtest.demo.Test6" />
+			<class name="com.webtest.demo.Test7" />
+			<class name="com.webtest.demo.Test8" />
+			<class name="com.webtest.demo.Test9" />
+			<class name="com.webtest.demo.Test10" />
+			<class name="com.webtest.demo.Test11" />
+			<class name="com.webtest.demo.Test12" />
+			<class name="com.webtest.demo.Test13" />
+			<class name="com.webtest.demo.Test14" />
+			<class name="com.webtest.demo.Test15" />
+			<class name="com.webtest.demo.Test16" />
+			<class name="com.webtest.demo.Test17" />
+			<class name="com.webtest.demo.Test18" />
+			<class name="com.webtest.demo.Test19" />
+			<class name="com.webtest.demo.Test25" />
+			<class name="com.webtest.demo.Test26" />
+			<class name="com.webtest.demo.Test27" />
+			<class name="com.webtest.demo.Test28" />
+			<class name="com.webtest.demo.Test29" />
+			<class name="com.webtest.demo.Test32" />
+			<class name="com.webtest.demo.Test33" />
+			<class name="com.webtest.demo.Test34" />
+			<class name="com.webtest.demo.Test35" />
+			<class name="com.webtest.demo.Test36" />
+			<class name="com.webtest.demo.Test37" />
+			<class name="com.webtest.demo.Test38" />
+			<class name="com.webtest.demo.Test39" />
+			<class name="com.webtest.demo.Test40" />
+			<class name="com.webtest.demo.Test41" />
+			<class name="com.webtest.demo.Test42" />
+		</classes>
+		
+	</test>
+
+
+</suite>
